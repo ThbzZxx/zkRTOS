@@ -1,0 +1,12 @@
+.\objects\test_mem.o: test_mem.c
+.\objects\test_mem.o: ..\kernel\include\zk_mem.h
+.\objects\test_mem.o: ..\kernel\include\zk_list.h
+.\objects\test_mem.o: ..\kernel\include\zk_types.h
+.\objects\test_mem.o: ..\kernel\include\zk_common.h
+.\objects\test_mem.o: ..\kernel\include\zk_config.h
+.\objects\test_mem.o: ..\arch\arm\cortex-m3\port.h
+.\objects\test_mem.o: ..\arch\arm\cortex-m3\portmacro.h
+.\objects\test_mem.o: D:\MDK_V5.3.1\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\test_mem.o: ..\include\zk_error.h
+.\objects\test_mem.o: ..\include\zk_assert.h
+.\objects\test_mem.o: ..\include\zk_utils.h

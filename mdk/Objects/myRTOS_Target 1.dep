@@ -1,0 +1,137 @@
+Dependencies for Project 'myRTOS', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::.\ARMCC
+F (..\src\zk_mem.c)(0x690EE9FD)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\bsp\stm32f1\core\inc -I ..\bsp\stm32f1\driver\serial -I ..\bsp\stm32f1\driver\STM32F10xFWLib\inc -I ..\include -I ..\libcpu\cm3-ID:\MDK_PACK\Keil\STM32F1xx_DFP\2.4.0\Device\Include-ID:\MDK_V5.3.1\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DSTM32F10X_MD-o .\objects\zk_mem.o --depend .\objects\zk_mem.d)
+I (..\include\zk_internal.h)(0x690EE977)
+I (..\include\zk_def.h)(0x690EEC29)
+I (..\bsp\stm32f1\core\inc\zk_config.h)(0x690ED06B)
+F (..\src\zk_mutex.c)(0x690EE8FF)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\bsp\stm32f1\core\inc -I ..\bsp\stm32f1\driver\serial -I ..\bsp\stm32f1\driver\STM32F10xFWLib\inc -I ..\include -I ..\libcpu\cm3-ID:\MDK_PACK\Keil\STM32F1xx_DFP\2.4.0\Device\Include-ID:\MDK_V5.3.1\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DSTM32F10X_MD-o .\objects\zk_mutex.o --depend .\objects\zk_mutex.d)
+I (..\include\zk_internal.h)(0x690EE977)
+I (..\include\zk_def.h)(0x690EEC29)
+I (..\bsp\stm32f1\core\inc\zk_config.h)(0x690ED06B)
+F (..\src\zk_queue.c)(0x690EE9FD)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\bsp\stm32f1\core\inc -I ..\bsp\stm32f1\driver\serial -I ..\bsp\stm32f1\driver\STM32F10xFWLib\inc -I ..\include -I ..\libcpu\cm3-ID:\MDK_PACK\Keil\STM32F1xx_DFP\2.4.0\Device\Include-ID:\MDK_V5.3.1\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DSTM32F10X_MD-o .\objects\zk_queue.o --depend .\objects\zk_queue.d)
+I (..\include\zk_internal.h)(0x690EE977)
+I (..\include\zk_def.h)(0x690EEC29)
+I (..\bsp\stm32f1\core\inc\zk_config.h)(0x690ED06B)
+F (..\src\zk_scheduler.c)(0x690EE8BD)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\bsp\stm32f1\core\inc -I ..\bsp\stm32f1\driver\serial -I ..\bsp\stm32f1\driver\STM32F10xFWLib\inc -I ..\include -I ..\libcpu\cm3-ID:\MDK_PACK\Keil\STM32F1xx_DFP\2.4.0\Device\Include-ID:\MDK_V5.3.1\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DSTM32F10X_MD-o .\objects\zk_scheduler.o --depend .\objects\zk_scheduler.d)
+I (..\include\zk_internal.h)(0x690EE977)
+I (..\include\zk_def.h)(0x690EEC29)
+I (..\bsp\stm32f1\core\inc\zk_config.h)(0x690ED06B)
+F (..\src\zk_sem.c)(0x690EE9FC)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\bsp\stm32f1\core\inc -I ..\bsp\stm32f1\driver\serial -I ..\bsp\stm32f1\driver\STM32F10xFWLib\inc -I ..\include -I ..\libcpu\cm3-ID:\MDK_PACK\Keil\STM32F1xx_DFP\2.4.0\Device\Include-ID:\MDK_V5.3.1\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DSTM32F10X_MD-o .\objects\zk_sem.o --depend .\objects\zk_sem.d)
+I (..\include\zk_internal.h)(0x690EE977)
+I (..\include\zk_def.h)(0x690EEC29)
+I (..\bsp\stm32f1\core\inc\zk_config.h)(0x690ED06B)
+F (..\src\zk_task.c)(0x690EE9FC)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\bsp\stm32f1\core\inc -I ..\bsp\stm32f1\driver\serial -I ..\bsp\stm32f1\driver\STM32F10xFWLib\inc -I ..\include -I ..\libcpu\cm3-ID:\MDK_PACK\Keil\STM32F1xx_DFP\2.4.0\Device\Include-ID:\MDK_V5.3.1\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DSTM32F10X_MD-o .\objects\zk_task.o --depend .\objects\zk_task.d)
+I (..\include\zk_internal.h)(0x690EE977)
+I (..\include\zk_def.h)(0x690EEC29)
+I (..\bsp\stm32f1\core\inc\zk_config.h)(0x690ED06B)
+F (..\src\zk_time.c)(0x690EE9FC)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\bsp\stm32f1\core\inc -I ..\bsp\stm32f1\driver\serial -I ..\bsp\stm32f1\driver\STM32F10xFWLib\inc -I ..\include -I ..\libcpu\cm3-ID:\MDK_PACK\Keil\STM32F1xx_DFP\2.4.0\Device\Include-ID:\MDK_V5.3.1\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DSTM32F10X_MD-o .\objects\zk_time.o --depend .\objects\zk_time.d)
+I (..\include\zk_internal.h)(0x690EE977)
+I (..\include\zk_def.h)(0x690EEC29)
+I (..\bsp\stm32f1\core\inc\zk_config.h)(0x690ED06B)
+F (..\src\zk_timer.c)(0x690EE8C3)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\bsp\stm32f1\core\inc -I ..\bsp\stm32f1\driver\serial -I ..\bsp\stm32f1\driver\STM32F10xFWLib\inc -I ..\include -I ..\libcpu\cm3-ID:\MDK_PACK\Keil\STM32F1xx_DFP\2.4.0\Device\Include-ID:\MDK_V5.3.1\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DSTM32F10X_MD-o .\objects\zk_timer.o --depend .\objects\zk_timer.d)
+I (..\include\zk_internal.h)(0x690EE977)
+I (..\include\zk_def.h)(0x690EEC29)
+I (..\bsp\stm32f1\core\inc\zk_config.h)(0x690ED06B)
+F (..\libcpu\cm3\cortexM3_macro_rvds.s)(0x66432024)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-ID:\MDK_PACK\Keil\STM32F1xx_DFP\2.4.0\Device\Include-ID:\MDK_V5.3.1\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 531" --pd "STM32F10X_MD SETA 1"--list .\listings\cortexm3_macro_rvds.lst --xref -o .\objects\cortexm3_macro_rvds.o --depend .\objects\cortexm3_macro_rvds.d)
+F (..\libcpu\cm3\port.c)(0x690EEC7D)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\bsp\stm32f1\core\inc -I ..\bsp\stm32f1\driver\serial -I ..\bsp\stm32f1\driver\STM32F10xFWLib\inc -I ..\include -I ..\libcpu\cm3-ID:\MDK_PACK\Keil\STM32F1xx_DFP\2.4.0\Device\Include-ID:\MDK_V5.3.1\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DSTM32F10X_MD-o .\objects\port.o --depend .\objects\port.d)
+I (..\libcpu\cm3\port.h)(0x690EEC0F)
+I (..\include\zk_internal.h)(0x690EE977)
+I (..\include\zk_def.h)(0x690EEC29)
+I (..\bsp\stm32f1\core\inc\zk_config.h)(0x690ED06B)
+F (.\startup_stm32f1xx.s)(0x68DCDDDA)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-ID:\MDK_PACK\Keil\STM32F1xx_DFP\2.4.0\Device\Include-ID:\MDK_V5.3.1\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 531" --pd "STM32F10X_MD SETA 1"--list .\listings\startup_stm32f1xx.lst --xref -o .\objects\startup_stm32f1xx.o --depend .\objects\startup_stm32f1xx.d)
+F (..\bsp\stm32f1\driver\serial\serial.c)(0x690DFC65)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\bsp\stm32f1\core\inc -I ..\bsp\stm32f1\driver\serial -I ..\bsp\stm32f1\driver\STM32F10xFWLib\inc -I ..\include -I ..\libcpu\cm3-ID:\MDK_PACK\Keil\STM32F1xx_DFP\2.4.0\Device\Include-ID:\MDK_V5.3.1\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DSTM32F10X_MD-o .\objects\serial.o --depend .\objects\serial.d)
+I (D:\MDK_V5.3.1\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
+I (D:\MDK_V5.3.1\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
+I (..\bsp\stm32f1\driver\STM32F10xFWLib\inc\stm32f10x_lib.h)(0x6641FEC6)
+I (..\bsp\stm32f1\driver\STM32F10xFWLib\inc\stm32f10x_map.h)(0x6528B038)
+I (..\bsp\stm32f1\driver\STM32F10xFWLib\inc\stm32f10x_conf.h)(0x6528B038)
+I (..\bsp\stm32f1\driver\STM32F10xFWLib\inc\stm32f10x_type.h)(0x663F197C)
+I (..\bsp\stm32f1\driver\STM32F10xFWLib\inc\cortexm3_macro.h)(0x6528B038)
+I (..\bsp\stm32f1\driver\STM32F10xFWLib\inc\stm32f10x_exti.h)(0x6528B038)
+I (..\bsp\stm32f1\driver\STM32F10xFWLib\inc\stm32f10x_gpio.h)(0x6528B038)
+I (..\bsp\stm32f1\driver\STM32F10xFWLib\inc\stm32f10x_nvic.h)(0x6528B038)
+I (..\bsp\stm32f1\driver\STM32F10xFWLib\inc\stm32f10x_rcc.h)(0x6528B038)
+I (..\bsp\stm32f1\driver\STM32F10xFWLib\inc\stm32f10x_spi.h)(0x6528B038)
+I (..\bsp\stm32f1\driver\STM32F10xFWLib\inc\stm32f10x_systick.h)(0x6528B038)
+I (..\bsp\stm32f1\driver\STM32F10xFWLib\inc\stm32f10x_usart.h)(0x663F177A)
+F (..\bsp\stm32f1\driver\STM32F10xFWLib\src\stm32f10x_exti.c)(0x6528B038)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\bsp\stm32f1\core\inc -I ..\bsp\stm32f1\driver\serial -I ..\bsp\stm32f1\driver\STM32F10xFWLib\inc -I ..\include -I ..\libcpu\cm3-ID:\MDK_PACK\Keil\STM32F1xx_DFP\2.4.0\Device\Include-ID:\MDK_V5.3.1\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DSTM32F10X_MD-o .\objects\stm32f10x_exti.o --depend .\objects\stm32f10x_exti.d)
+I (..\bsp\stm32f1\driver\STM32F10xFWLib\inc\stm32f10x_exti.h)(0x6528B038)
+I (..\bsp\stm32f1\driver\STM32F10xFWLib\inc\stm32f10x_map.h)(0x6528B038)
+I (..\bsp\stm32f1\driver\STM32F10xFWLib\inc\stm32f10x_conf.h)(0x6528B038)
+I (..\bsp\stm32f1\driver\STM32F10xFWLib\inc\stm32f10x_type.h)(0x663F197C)
+I (..\bsp\stm32f1\driver\STM32F10xFWLib\inc\cortexm3_macro.h)(0x6528B038)
+F (..\bsp\stm32f1\driver\STM32F10xFWLib\src\stm32f10x_gpio.c)(0x6528B038)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\bsp\stm32f1\core\inc -I ..\bsp\stm32f1\driver\serial -I ..\bsp\stm32f1\driver\STM32F10xFWLib\inc -I ..\include -I ..\libcpu\cm3-ID:\MDK_PACK\Keil\STM32F1xx_DFP\2.4.0\Device\Include-ID:\MDK_V5.3.1\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DSTM32F10X_MD-o .\objects\stm32f10x_gpio.o --depend .\objects\stm32f10x_gpio.d)
+I (..\bsp\stm32f1\driver\STM32F10xFWLib\inc\stm32f10x_gpio.h)(0x6528B038)
+I (..\bsp\stm32f1\driver\STM32F10xFWLib\inc\stm32f10x_map.h)(0x6528B038)
+I (..\bsp\stm32f1\driver\STM32F10xFWLib\inc\stm32f10x_conf.h)(0x6528B038)
+I (..\bsp\stm32f1\driver\STM32F10xFWLib\inc\stm32f10x_type.h)(0x663F197C)
+I (..\bsp\stm32f1\driver\STM32F10xFWLib\inc\cortexm3_macro.h)(0x6528B038)
+I (..\bsp\stm32f1\driver\STM32F10xFWLib\inc\stm32f10x_rcc.h)(0x6528B038)
+F (..\bsp\stm32f1\driver\STM32F10xFWLib\src\stm32f10x_lib.c)(0x6528B038)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\bsp\stm32f1\core\inc -I ..\bsp\stm32f1\driver\serial -I ..\bsp\stm32f1\driver\STM32F10xFWLib\inc -I ..\include -I ..\libcpu\cm3-ID:\MDK_PACK\Keil\STM32F1xx_DFP\2.4.0\Device\Include-ID:\MDK_V5.3.1\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DSTM32F10X_MD-o .\objects\stm32f10x_lib.o --depend .\objects\stm32f10x_lib.d)
+I (..\bsp\stm32f1\driver\STM32F10xFWLib\inc\stm32f10x_lib.h)(0x6641FEC6)
+I (..\bsp\stm32f1\driver\STM32F10xFWLib\inc\stm32f10x_map.h)(0x6528B038)
+I (..\bsp\stm32f1\driver\STM32F10xFWLib\inc\stm32f10x_conf.h)(0x6528B038)
+I (..\bsp\stm32f1\driver\STM32F10xFWLib\inc\stm32f10x_type.h)(0x663F197C)
+I (..\bsp\stm32f1\driver\STM32F10xFWLib\inc\cortexm3_macro.h)(0x6528B038)
+I (..\bsp\stm32f1\driver\STM32F10xFWLib\inc\stm32f10x_exti.h)(0x6528B038)
+I (..\bsp\stm32f1\driver\STM32F10xFWLib\inc\stm32f10x_gpio.h)(0x6528B038)
+I (..\bsp\stm32f1\driver\STM32F10xFWLib\inc\stm32f10x_nvic.h)(0x6528B038)
+I (..\bsp\stm32f1\driver\STM32F10xFWLib\inc\stm32f10x_rcc.h)(0x6528B038)
+I (..\bsp\stm32f1\driver\STM32F10xFWLib\inc\stm32f10x_spi.h)(0x6528B038)
+I (..\bsp\stm32f1\driver\STM32F10xFWLib\inc\stm32f10x_systick.h)(0x6528B038)
+I (..\bsp\stm32f1\driver\STM32F10xFWLib\inc\stm32f10x_usart.h)(0x663F177A)
+F (..\bsp\stm32f1\driver\STM32F10xFWLib\src\stm32f10x_nvic.c)(0x6528B038)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\bsp\stm32f1\core\inc -I ..\bsp\stm32f1\driver\serial -I ..\bsp\stm32f1\driver\STM32F10xFWLib\inc -I ..\include -I ..\libcpu\cm3-ID:\MDK_PACK\Keil\STM32F1xx_DFP\2.4.0\Device\Include-ID:\MDK_V5.3.1\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DSTM32F10X_MD-o .\objects\stm32f10x_nvic.o --depend .\objects\stm32f10x_nvic.d)
+I (..\bsp\stm32f1\driver\STM32F10xFWLib\inc\stm32f10x_nvic.h)(0x6528B038)
+I (..\bsp\stm32f1\driver\STM32F10xFWLib\inc\stm32f10x_map.h)(0x6528B038)
+I (..\bsp\stm32f1\driver\STM32F10xFWLib\inc\stm32f10x_conf.h)(0x6528B038)
+I (..\bsp\stm32f1\driver\STM32F10xFWLib\inc\stm32f10x_type.h)(0x663F197C)
+I (..\bsp\stm32f1\driver\STM32F10xFWLib\inc\cortexm3_macro.h)(0x6528B038)
+F (..\bsp\stm32f1\driver\STM32F10xFWLib\src\stm32f10x_rcc.c)(0x6528B038)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\bsp\stm32f1\core\inc -I ..\bsp\stm32f1\driver\serial -I ..\bsp\stm32f1\driver\STM32F10xFWLib\inc -I ..\include -I ..\libcpu\cm3-ID:\MDK_PACK\Keil\STM32F1xx_DFP\2.4.0\Device\Include-ID:\MDK_V5.3.1\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DSTM32F10X_MD-o .\objects\stm32f10x_rcc.o --depend .\objects\stm32f10x_rcc.d)
+I (..\bsp\stm32f1\driver\STM32F10xFWLib\inc\stm32f10x_rcc.h)(0x6528B038)
+I (..\bsp\stm32f1\driver\STM32F10xFWLib\inc\stm32f10x_map.h)(0x6528B038)
+I (..\bsp\stm32f1\driver\STM32F10xFWLib\inc\stm32f10x_conf.h)(0x6528B038)
+I (..\bsp\stm32f1\driver\STM32F10xFWLib\inc\stm32f10x_type.h)(0x663F197C)
+I (..\bsp\stm32f1\driver\STM32F10xFWLib\inc\cortexm3_macro.h)(0x6528B038)
+F (..\bsp\stm32f1\driver\STM32F10xFWLib\src\stm32f10x_systick.c)(0x6528B038)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\bsp\stm32f1\core\inc -I ..\bsp\stm32f1\driver\serial -I ..\bsp\stm32f1\driver\STM32F10xFWLib\inc -I ..\include -I ..\libcpu\cm3-ID:\MDK_PACK\Keil\STM32F1xx_DFP\2.4.0\Device\Include-ID:\MDK_V5.3.1\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DSTM32F10X_MD-o .\objects\stm32f10x_systick.o --depend .\objects\stm32f10x_systick.d)
+I (..\bsp\stm32f1\driver\STM32F10xFWLib\inc\stm32f10x_systick.h)(0x6528B038)
+I (..\bsp\stm32f1\driver\STM32F10xFWLib\inc\stm32f10x_map.h)(0x6528B038)
+I (..\bsp\stm32f1\driver\STM32F10xFWLib\inc\stm32f10x_conf.h)(0x6528B038)
+I (..\bsp\stm32f1\driver\STM32F10xFWLib\inc\stm32f10x_type.h)(0x663F197C)
+I (..\bsp\stm32f1\driver\STM32F10xFWLib\inc\cortexm3_macro.h)(0x6528B038)
+F (..\bsp\stm32f1\driver\STM32F10xFWLib\src\stm32f10x_tim.c)(0x6528B038)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\bsp\stm32f1\core\inc -I ..\bsp\stm32f1\driver\serial -I ..\bsp\stm32f1\driver\STM32F10xFWLib\inc -I ..\include -I ..\libcpu\cm3-ID:\MDK_PACK\Keil\STM32F1xx_DFP\2.4.0\Device\Include-ID:\MDK_V5.3.1\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DSTM32F10X_MD-o .\objects\stm32f10x_tim.o --depend .\objects\stm32f10x_tim.d)
+I (..\bsp\stm32f1\driver\STM32F10xFWLib\inc\stm32f10x_tim.h)(0x6528B038)
+I (..\bsp\stm32f1\driver\STM32F10xFWLib\inc\stm32f10x_map.h)(0x6528B038)
+I (..\bsp\stm32f1\driver\STM32F10xFWLib\inc\stm32f10x_conf.h)(0x6528B038)
+I (..\bsp\stm32f1\driver\STM32F10xFWLib\inc\stm32f10x_type.h)(0x663F197C)
+I (..\bsp\stm32f1\driver\STM32F10xFWLib\inc\cortexm3_macro.h)(0x6528B038)
+I (..\bsp\stm32f1\driver\STM32F10xFWLib\inc\stm32f10x_rcc.h)(0x6528B038)
+F (..\bsp\stm32f1\driver\STM32F10xFWLib\src\stm32f10x_usart.c)(0x66908C7C)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\bsp\stm32f1\core\inc -I ..\bsp\stm32f1\driver\serial -I ..\bsp\stm32f1\driver\STM32F10xFWLib\inc -I ..\include -I ..\libcpu\cm3-ID:\MDK_PACK\Keil\STM32F1xx_DFP\2.4.0\Device\Include-ID:\MDK_V5.3.1\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DSTM32F10X_MD-o .\objects\stm32f10x_usart.o --depend .\objects\stm32f10x_usart.d)
+I (..\bsp\stm32f1\driver\STM32F10xFWLib\inc\stm32f10x_usart.h)(0x663F177A)
+I (..\bsp\stm32f1\driver\STM32F10xFWLib\inc\stm32f10x_map.h)(0x6528B038)
+I (..\bsp\stm32f1\driver\STM32F10xFWLib\inc\stm32f10x_conf.h)(0x6528B038)
+I (..\bsp\stm32f1\driver\STM32F10xFWLib\inc\stm32f10x_type.h)(0x663F197C)
+I (..\bsp\stm32f1\driver\STM32F10xFWLib\inc\cortexm3_macro.h)(0x6528B038)
+I (..\bsp\stm32f1\driver\STM32F10xFWLib\inc\stm32f10x_rcc.h)(0x6528B038)
+F (..\bsp\stm32f1\core\src\main.c)(0x690EBFEA)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\bsp\stm32f1\core\inc -I ..\bsp\stm32f1\driver\serial -I ..\bsp\stm32f1\driver\STM32F10xFWLib\inc -I ..\include -I ..\libcpu\cm3-ID:\MDK_PACK\Keil\STM32F1xx_DFP\2.4.0\Device\Include-ID:\MDK_V5.3.1\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DSTM32F10X_MD-o .\objects\main.o --depend .\objects\main.d)
+I (..\bsp\stm32f1\core\inc\platform.h)(0x6646C472)
+I (..\include\zk_rtos.h)(0x690EE830)
+I (..\include\zk_def.h)(0x690EEC29)
+I (..\bsp\stm32f1\core\inc\zk_config.h)(0x690ED06B)
+I (D:\MDK_V5.3.1\ARM\ARMCC\include\stddef.h)(0x5EC775FC)
+I (D:\MDK_V5.3.1\ARM\ARMCC\include\stdarg.h)(0x5EC775FC)
+I (D:\MDK_V5.3.1\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
+F (..\bsp\stm32f1\core\src\platform.c)(0x6653DA2A)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\bsp\stm32f1\core\inc -I ..\bsp\stm32f1\driver\serial -I ..\bsp\stm32f1\driver\STM32F10xFWLib\inc -I ..\include -I ..\libcpu\cm3-ID:\MDK_PACK\Keil\STM32F1xx_DFP\2.4.0\Device\Include-ID:\MDK_V5.3.1\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DSTM32F10X_MD-o .\objects\platform.o --depend .\objects\platform.d)
+I (..\bsp\stm32f1\core\inc\platform.h)(0x6646C472)
+I (..\bsp\stm32f1\driver\STM32F10xFWLib\inc\stm32f10x_it.h)(0x6528B038)
+I (..\bsp\stm32f1\driver\STM32F10xFWLib\inc\stm32f10x_lib.h)(0x6641FEC6)
+I (..\bsp\stm32f1\driver\STM32F10xFWLib\inc\stm32f10x_map.h)(0x6528B038)
+I (..\bsp\stm32f1\driver\STM32F10xFWLib\inc\stm32f10x_conf.h)(0x6528B038)
+I (..\bsp\stm32f1\driver\STM32F10xFWLib\inc\stm32f10x_type.h)(0x663F197C)
+I (..\bsp\stm32f1\driver\STM32F10xFWLib\inc\cortexm3_macro.h)(0x6528B038)
+I (..\bsp\stm32f1\driver\STM32F10xFWLib\inc\stm32f10x_exti.h)(0x6528B038)
+I (..\bsp\stm32f1\driver\STM32F10xFWLib\inc\stm32f10x_gpio.h)(0x6528B038)
+I (..\bsp\stm32f1\driver\STM32F10xFWLib\inc\stm32f10x_nvic.h)(0x6528B038)
+I (..\bsp\stm32f1\driver\STM32F10xFWLib\inc\stm32f10x_rcc.h)(0x6528B038)
+I (..\bsp\stm32f1\driver\STM32F10xFWLib\inc\stm32f10x_spi.h)(0x6528B038)
+I (..\bsp\stm32f1\driver\STM32F10xFWLib\inc\stm32f10x_systick.h)(0x6528B038)
+I (..\bsp\stm32f1\driver\STM32F10xFWLib\inc\stm32f10x_usart.h)(0x663F177A)

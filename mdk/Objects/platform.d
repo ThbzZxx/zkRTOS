@@ -1,0 +1,15 @@
+.\objects\platform.o: ..\bsp\stm32f1\core\src\platform.c
+.\objects\platform.o: ..\bsp\stm32f1\core\inc\platform.h
+.\objects\platform.o: ..\bsp\stm32f1\driver\STM32F10xFWLib\inc\stm32f10x_it.h
+.\objects\platform.o: ..\bsp\stm32f1\driver\STM32F10xFWLib\inc\stm32f10x_lib.h
+.\objects\platform.o: ..\bsp\stm32f1\driver\STM32F10xFWLib\inc\stm32f10x_map.h
+.\objects\platform.o: ..\bsp\stm32f1\driver\STM32F10xFWLib\inc\stm32f10x_conf.h
+.\objects\platform.o: ..\bsp\stm32f1\driver\STM32F10xFWLib\inc\stm32f10x_type.h
+.\objects\platform.o: ..\bsp\stm32f1\driver\STM32F10xFWLib\inc\cortexm3_macro.h
+.\objects\platform.o: ..\bsp\stm32f1\driver\STM32F10xFWLib\inc\stm32f10x_exti.h
+.\objects\platform.o: ..\bsp\stm32f1\driver\STM32F10xFWLib\inc\stm32f10x_gpio.h
+.\objects\platform.o: ..\bsp\stm32f1\driver\STM32F10xFWLib\inc\stm32f10x_nvic.h
+.\objects\platform.o: ..\bsp\stm32f1\driver\STM32F10xFWLib\inc\stm32f10x_rcc.h
+.\objects\platform.o: ..\bsp\stm32f1\driver\STM32F10xFWLib\inc\stm32f10x_spi.h
+.\objects\platform.o: ..\bsp\stm32f1\driver\STM32F10xFWLib\inc\stm32f10x_systick.h
+.\objects\platform.o: ..\bsp\stm32f1\driver\STM32F10xFWLib\inc\stm32f10x_usart.h

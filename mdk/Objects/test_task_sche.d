@@ -1,0 +1,13 @@
+.\objects\test_task_sche.o: test_task_sche.c
+.\objects\test_task_sche.o: ..\kernel\include\my_kernel.h
+.\objects\test_task_sche.o: ..\kernel\include\my_task.h
+.\objects\test_task_sche.o: ..\kernel\include\my_list.h
+.\objects\test_task_sche.o: ..\kernel\include\my_types.h
+.\objects\test_task_sche.o: ..\kernel\include\my_config.h
+.\objects\test_task_sche.o: ..\kernel\include\my_mutex.h
+.\objects\test_task_sche.o: ..\kernel\include\my_printk.h
+.\objects\test_task_sche.o: D:\kei5_MDK\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\test_task_sche.o: ..\kernel\include\my_time.h
+.\objects\test_task_sche.o: ..\kernel\include\my_error_code.h
+.\objects\test_task_sche.o: D:\kei5_MDK\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\test_task_sche.o: ..\kernel\include\my_lib.h

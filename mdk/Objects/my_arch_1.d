@@ -1,0 +1,9 @@
+.\objects\my_arch_1.o: ..\arch\arm\cortex-m3\my_arch.c
+.\objects\my_arch_1.o: ..\arch\arm\cortex-m3\my_arch.h
+.\objects\my_arch_1.o: ..\kernel\include\my_types.h
+.\objects\my_arch_1.o: ..\arch\arm\cortex-m3\port.h
+.\objects\my_arch_1.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\my_arch_1.o: ..\arch\arm\cortex-m3\portmacro.h
+.\objects\my_arch_1.o: ..\kernel\include\my_config.h
+.\objects\my_arch_1.o: ..\kernel\include\my_task.h
+.\objects\my_arch_1.o: ..\kernel\include\my_list.h
